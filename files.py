@@ -1,0 +1,7 @@
+f=open ("testfile","w")
+f.write("Line 1 in testfile\n")
+f.close()
+f=open("testfile","r")
+line1=f.readline()
+f.close()
+print(line1)
