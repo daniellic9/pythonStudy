@@ -4,6 +4,8 @@
 #Then, the output should be:
 #bag,hello,without,world
 
+#para cada x in input.split(',') adicione na lista
 items=[x for x in input().split(',')]
 items.sort()
 print(','.join(items))
+
