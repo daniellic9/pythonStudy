@@ -11,4 +11,7 @@
 
 s = input()
 words = [word for word in s.split(" ")]
+#set faz ser conjunto ou seja tira repetidos
+#converte para list
+#sorted organiza lista
 print(" ".join(sorted(list(set(words)))))
