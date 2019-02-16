@@ -14,7 +14,8 @@ import math
 c=50
 h=30
 value = []
-items=[x for x in raw_input().split(',')]
+#para cada x no input.split(',') add na lista itens
+items=[x for x in input().split(',')]
 for d in items:
     value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
 
