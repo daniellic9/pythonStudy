@@ -4,4 +4,4 @@ def fact(x):
     return x * fact(x - 1)
 
 x=int(input())
-print fact(x)
+print(fact(x))
